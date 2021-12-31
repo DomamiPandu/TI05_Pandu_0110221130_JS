@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Daftar Beberapa Gambar Hewan Langka di Indonesia</h1>
+    <table>
+        <tr>
+            <th>Pilih Hewan</th>
+            <th>:</th>
+            <th>
+                <select id="animal" onchange="cetakGambar()">
+                    <option value=""> Klik Untuk Memilih...</option>
+                    <option value="cendrawasih"> Burung Cendrawasih</option>
+                    <option value="kudalaut">Kuda Laut</option>
+                    <option value="harimau">Harimau</option>
+                    <option value="bluedragon">Blue Dragon</option>
+                    <option value="merak">Burung Merah</option>
+                    <option value="nautilus">Nautilus</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Gambar</th>
+            <th>:</th>
+            <th>
+                <img id="gambar">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
